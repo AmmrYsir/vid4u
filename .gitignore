@@ -10,7 +10,19 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+coverage
 *.local
+*.tsbuildinfo
+
+# Local media tooling and secrets
+server/bin/
+server/.tmp/
+.tmp/
+.env
+.env.*
+!.env.example
+*.cookies.txt
+cookies.txt
 
 # Editor directories and files
 .vscode/*
