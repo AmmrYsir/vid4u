@@ -16,8 +16,8 @@ coverage
 
 # Local media tooling and secrets
 server/bin/
-server/.tmp/
-.tmp/
+# Runtime temp: ignore a .tmp file or directory at any depth
+.tmp
 .env
 .env.*
 !.env.example
